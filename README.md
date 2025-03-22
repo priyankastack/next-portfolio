@@ -1,6 +1,6 @@
 # [Portfolio Website](https://next-portfolio-alpha-livid-90.vercel.app/)
 
-### A modern and responsive portfolio website built with HTML, CSS, and JavaScript.
+### A modern and responsive portfolio website built with HTML, Tailwind CSS, TypeScript and Next.js.
 
 ## 🚀 Features
 
