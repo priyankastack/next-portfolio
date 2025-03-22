@@ -1,36 +1,26 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# [Portfolio Website](https://next-portfolio-alpha-livid-90.vercel.app/)
 
-## Getting Started
+### A modern and responsive portfolio website built with HTML, CSS, and JavaScript.
 
-First, run the development server:
+## 🚀 Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+-- Modern UI/UX Design – Clean, elegant, and fully responsive design.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+-- Dark & Light Mode – Toggle between themes for a better user experience.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+-- Smooth Animations – Engaging transitions and effects.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+-- Project Showcase – Display your best work with interactive cards.
 
-## Learn More
+-- Contact Form – Users can easily reach out via an embedded contact form.
 
-To learn more about Next.js, take a look at the following resources:
+## 🛠 Tech Stack
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+-- Frontend: HTML, CSS, JavaScript
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+-- Styling: Tailwind CSS / SCSS
 
-## Deploy on Vercel
+-- Icons & Fonts: FontAwesome, Google Fonts
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+-- Animations: AOS (Animate On Scroll), GSAP (optional)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
