@@ -15,8 +15,8 @@ export default function LinkPreviewDemo() {
         for tech and showcase my projects, including my work at{" "}
         <LinkPreview url="https://modixworld.com/" className="font-bold">
           Multinational opportunities for diplomatic and international growth.
-        </LinkPreview>{" "}
-        and ,{" "}
+        </LinkPreview>
+        and ,
         <LinkPreview url="https://modixworld.com/" className="font-bold">
         IREIE
         </LinkPreview>{" "}
