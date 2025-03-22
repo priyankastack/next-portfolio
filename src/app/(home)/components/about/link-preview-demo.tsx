@@ -17,12 +17,8 @@ export default function LinkPreviewDemo() {
           Multinational opportunities for diplomatic and international growth.
         </LinkPreview>{" "}
         and ,{" "}
-        <LinkPreview url="https://www.kraftmonk.com" className="font-bold">
-          KraftMonk
-        </LinkPreview>{" "}
-        and{" "}
-        <LinkPreview url="https://rentout.homes" className="font-bold">
-          RentOut Homes
+        <LinkPreview url="#" className="font-bold">
+        IREIE
         </LinkPreview>{" "}
         are a great way to build modern websites. Visit Explore my creations and
         join me on this adventure as I learn, build, and innovate in the world

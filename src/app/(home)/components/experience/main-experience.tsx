@@ -61,7 +61,7 @@ const dummyContent = [
       </>
     ),
     badge: "M.O.D.I | Sept 2024 - Present",
-    image: "/images/kraftmonk.png",
+  
   },
   {
     title: "Frontend Developer Intern",
@@ -76,6 +76,6 @@ const dummyContent = [
       </>
     ),
     badge: "IREIE | May 2024 – Aug 2024",
-    image: "/images/upskill-rep.png",
+    
   },
 ];
