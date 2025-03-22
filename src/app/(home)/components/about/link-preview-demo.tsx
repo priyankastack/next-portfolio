@@ -17,7 +17,7 @@ export default function LinkPreviewDemo() {
           Multinational opportunities for diplomatic and international growth.
         </LinkPreview>{" "}
         and ,{" "}
-        <LinkPreview url="#" className="font-bold">
+        <LinkPreview url="https://modixworld.com/" className="font-bold">
         IREIE
         </LinkPreview>{" "}
         are a great way to build modern websites. Visit Explore my creations and
