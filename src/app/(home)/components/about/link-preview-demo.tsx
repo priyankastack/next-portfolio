@@ -5,7 +5,6 @@ import { FaLinkedinIn } from "react-icons/fa";
 import { FaBehance } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import Link from "next/link";
-
 export default function LinkPreviewDemo() {
   return (
     <div className="flex justify-center items-center flex-col px-4">
@@ -61,3 +60,5 @@ export default function LinkPreviewDemo() {
     </div>
   );
 }
+
+

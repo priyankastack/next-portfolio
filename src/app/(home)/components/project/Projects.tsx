@@ -103,7 +103,7 @@ const projects = [
   },
   {
     projectId:9,
-    Title: "Web Developer Portfolio",
+    Title: "Wash Wizard",
     shortUrl: "priyankastack/WashWizard",
     description:
       "A responsive Laundry Service Website built with HTML, CSS, and JavaScript, enabling users to explore services, schedule pickups, and manage orders with an interactive, user-friendly design.",
