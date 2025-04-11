@@ -27,7 +27,7 @@ export default function SpotlightNewDemo() {
           Hey! I&apos;m Priyanka,
           <br />
           <span className="flex max-sm:hidden text-2xl items-center pt-4 justify-center">
-            <TextHoverEffect text="Frontend developer" />
+            <TextHoverEffect text="MernStack developer" />
           </span>
 
         {/* mobile view role */}
