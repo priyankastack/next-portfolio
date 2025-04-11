@@ -28,15 +28,15 @@ const projects = [
   },
   {
     projectId: 3,
-    Title: "Employee Task Management",
-    shortUrl: "/priyankastack/EMS",
+    Title: "ManageHub",
+    shortUrl: "/priyankastack/ManageHub",
     description:
-      "The Employee Management System (EMS) is a frontend-based application where admins can assign tasks to employees, and employees can view their assigned tasks",
-    img: "/images/ems.png",
-    repo: "https://github.com/priyankastack/EMS",
+      "ManageHub is a web app with role-based access, offering login/signup and full CRUD functionality for admins and users.",
+    img: "/images/mh.png",
+    repo: "https://github.com/priyankastack/ManageHub",
     type: "web",
-    view: "https://ems-six-tau.vercel.app/",
-    techStack: ["React js", "Tailwind CSS", "HTML"],
+    view: "https://manage-hub-sepia.vercel.app/",
+    techStack: ["React js","Express.js","Mongodb","RESTFULAPIs","Authentication","Tailwind CSS"],
   },
   {
     projectId: 4,
