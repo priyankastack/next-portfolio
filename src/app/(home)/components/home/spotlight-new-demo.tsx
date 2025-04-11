@@ -6,7 +6,7 @@ import { useEffect } from "react";
 import { FlipWords } from "@/components/ui/flip-words";
 
 export default function SpotlightNewDemo() {
-  const words = ["React js developer", "Frontend developer", "UI/UX designer"];
+  const words = ["MernStack developer", "React js developer", "Frontend developer"];
   useEffect(() => {
     const SportLightSoundEffect = () => {
       const audio = new Audio("/images/sound.mp3");
