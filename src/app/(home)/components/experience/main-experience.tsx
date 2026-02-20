@@ -46,6 +46,35 @@ export default function TracingBeamDemo() {
 
 const dummyContent = [
   {
+  title: "MERN Stack Developer",
+  description: (
+    <>
+      <p>
+        ▪ Developed scalable and responsive web applications using React.js,
+        Next.js, and Tailwind CSS to deliver a seamless user experience.
+      </p>
+      <p>
+        ▪ Built and integrated RESTful APIs using Node.js and Express.js,
+        handling authentication and authorization for secure data access.
+      </p>
+      <p>
+        ▪ Designed and managed MongoDB databases, optimizing queries and
+        application performance across the MERN stack.
+      </p>
+      <p>
+        ▪ Implemented efficient state management using React Context API and
+        optimized frontend performance through structured API handling.
+      </p>
+      <p>
+        ▪ Collaborated on full-stack features, debugging, and deployment to
+        ensure smooth end-to-end functionality.
+      </p>
+    </>
+  ),
+  badge: "Anthem Infotech Pvt Ltd | Apr 2025 - Present",
+},
+
+  {
     title: "Frontend Developer",
     description: (
       <>
@@ -60,7 +89,7 @@ const dummyContent = [
         </p>
       </>
     ),
-    badge: "M.O.D.I | Sept 2024 - Present",
+    badge: "M.O.D.I | Sept 2024 - Mar 2025",
   
   },
   {

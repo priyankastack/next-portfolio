@@ -9,18 +9,20 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@emailjs/browser": "^4.4.1",
     "@radix-ui/react-hover-card": "^1.1.6",
     "@react-icons/all-files": "^4.1.0",
     "@tabler/icons-react": "^3.30.0",
     "@tsparticles/engine": "^3.8.1",
     "@tsparticles/react": "^3.0.0",
     "@tsparticles/slim": "^3.8.1",
+    "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "emailjs": "^4.0.3",
+    "lucide-react": "^0.574.0",
     "mini-svg-data-uri": "^1.4.4",
-    "motion": "^12.4.3",
+    "motion": "^12.34.2",
     "next": "15.1.11",
+    "nodemailer": "^8.0.1",
     "qss": "^3.0.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
@@ -28,7 +30,7 @@
     "react-slick": "^0.30.3",
     "react-toastify": "^11.0.3",
     "slick-carousel": "^1.8.1",
-    "tailwind-merge": "^3.0.1",
+    "tailwind-merge": "^3.4.1",
     "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {

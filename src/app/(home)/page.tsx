@@ -65,9 +65,9 @@ export default function Home() {
         <hr className="h-[1px] border-transparent bg-neutral-900" />
 
         {/* skills section */}
-        <div id="skill">
+        {/* <div id="skill">
           <HeroScrollDemo />
-        </div>
+        </div> */}
 
         <hr className="h-[1px] border-transparent bg-neutral-900" />
 

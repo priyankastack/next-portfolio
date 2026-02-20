@@ -1,27 +1,32 @@
 import React from 'react';
-
 const SkillsSection: React.FC = () => {
   return (
     <section id="skills">
       <h2>Technologies & Skills</h2>
       <dl>
         <dt><strong>Frontend</strong></dt>
-        <dd>React.js,Redux,JavaScript (ES6+),Tailwind CSS,HTML5, CSS3,Three.js,GSAP</dd>
-
+        <dd>
+          React.js, Next.js, Context API, JavaScript (ES6+), TypeScript,
+          Tailwind CSS, HTML5, CSS3
+        </dd>
         <dt><strong>Backend</strong></dt>
-        <dd>Node.js,Express.js,RESTful APIs</dd>
-
+        <dd>
+          Node.js, Express.js, RESTful APIs, Authentication, Authorization
+        </dd>
         <dt><strong>Databases</strong></dt>
-        <dd>MongoDB, MySQL</dd>
-
+        <dd>
+          MongoDB (NoSQL)
+        </dd>
         <dt><strong>Tools & Platforms</strong></dt>
-        <dd>Git & GitHub,Figma</dd>
-
-        <dt><strong>Programming & Core Concepts</strong></dt>
-        <dd>JAVA, C++,OOPs, Data Structures & Algorithms (DSA)</dd>
+        <dd>
+          Git & GitHub, Postman, FileZilla, Figma
+        </dd>
+        <dt><strong>AI Tools</strong></dt>
+        <dd>
+          v0, Lovable
+        </dd>
       </dl>
     </section>
   );
 };
-
 export default SkillsSection;

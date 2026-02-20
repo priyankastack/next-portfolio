@@ -1,7 +1,6 @@
 "use client";
 import { BackgroundBeams } from "@/components/ui/background-beams";
 import React, { useRef, useState } from "react";
-import emailjs from '@emailjs/browser';
 import { Slide, ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
@@ -11,48 +10,39 @@ export default function BackgroundBeamsDemo() {
   const [email, setEmail] = useState<string>("");
   const [message, setMessage] = useState<string>("");
 
-  const serviceId = process.env.NEXT_PUBLIC_SERVICE_ID as string;
-  const templateId = process.env.NEXT_PUBLIC_TEMPLATE_ID as string;
-  const publicKey = process.env.NEXT_PUBLIC_PUBLIC_KEY as string;
 
-  const sendEmail = (e: React.FormEvent<HTMLFormElement>) => {
-    e.preventDefault();
+  const sendEmail = async (e: React.FormEvent<HTMLFormElement>) => {
+  e.preventDefault();
 
-    if (form.current) {
-      emailjs.sendForm(serviceId, templateId, form.current, publicKey).then(
-        (res) => {
-          console.log(res.text);
-          // Clear the form fields after successful submission
-          setName("");
-          setEmail("");
-          setMessage("");
-          toast('Message Sent Successfully', {
-            position: "top-right",
-            autoClose: 3000,
-            hideProgressBar: false,
-            closeOnClick: false,
-            pauseOnHover: true,
-            draggable: true,
-            theme: "dark",
-            type: 'success',
-          });
-        },
-        (error) => {
-          console.log("FAILED...", error.text);
-          toast('not able to send message please try again!', {
-            position: "top-right",
-            autoClose: 3000,
-            hideProgressBar: false,
-            closeOnClick: false,
-            pauseOnHover: true,
-            draggable: true,
-            theme: "dark",
-            type: 'error',
-          });
-        }
-      );
-    }
-  };
+  try {
+    const res = await fetch("/api/email", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ name, email, message }),
+    });
+console.log("response from server", res);
+    if (!res.ok) throw new Error("Failed");
+
+    setName("");
+    setEmail("");
+    setMessage("");
+
+    toast("Message Sent Successfully", {
+      position: "top-right",
+      autoClose: 3000,
+      theme: "dark",
+      type: "success",
+    });
+  } catch (error) {
+    toast("Unable to send message. Please try again!", {
+      position: "top-right",
+      autoClose: 3000,
+      theme: "dark",
+      type: "error",
+    });
+  }
+};
+
 
   return (
     <div className="py-24 w-full rounded-md bg-black relative flex flex-col items-center justify-center antialiased">

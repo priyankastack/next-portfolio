@@ -11,14 +11,16 @@ export default function LinkPreviewDemo() {
       <h2 className="text-4xl lg:text-5xl font-bold m-4 mb-10">About me</h2>
       <div className="text-neutral-400 max-sm:text-neutral-300 text-lg lg:text-xl md:text-2xl max-w-5xl mx-auto mb-10 text-center">
         Welcome to my coding journey! 🚀 I&apos;m thrilled to share my passion
-        for tech and showcase my projects, including my work at{" "}
-        <LinkPreview url="https://modixworld.com/" className="font-bold">
-          Multinational opportunities for diplomatic and international growth.
-        </LinkPreview>
+        for tech and showcase my projects, including my work at{" "}  <LinkPreview url="https://antheminfotech.com/" className="font-bold">
+          Anthem Infotech Pvt Ltd
+        </LinkPreview>,{" "}
+        <span className="font-bold text-white">
+          Multinational opportunities for diplomatic and international growth
+        </span>{" "}
         and ,
-        <LinkPreview url="https://modixworld.com/" className="font-bold">
+        <span className="font-bold text-white">
         IREIE
-        </LinkPreview>{" "}
+        </span>{" "}
         are a great way to build modern websites. Visit Explore my creations and
         join me on this adventure as I learn, build, and innovate in the world
         of technology! Let&apos;s connect and create something amazing together!
