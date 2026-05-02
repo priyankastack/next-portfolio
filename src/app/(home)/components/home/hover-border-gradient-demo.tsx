@@ -8,7 +8,7 @@ export default function HoverBorderGradientDemo() {
     <div className="">
       <Link
         href={
-          "https://drive.google.com/file/d/1r6UVMpxJlWM4fTVeuKHv5s7_LzWbQyla/view?"
+          "https://drive.google.com/file/d/1Yhel_EsoWyXM99exWZmmbk6wr_Fh9aFn/view?usp=sharing"
         }
       >
         <HoverBorderGradient
